@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://cah57mkrkrl7c"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_8xm85"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_5tyve"]
+font_size = 54
+
+[node name="Main" type="CanvasLayer"]
+script = ExtResource("1_8xm85")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(1080, 1920)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1080.0
+offset_bottom = 1920.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.431373, 0.431373, 0.431373, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Frame: 0"
+label_settings = SubResource("LabelSettings_5tyve")
+horizontal_alignment = 1
+vertical_alignment = 1

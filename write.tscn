@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c55usy5i7omim"]
+
+[ext_resource type="Script" path="res://write.gd" id="1_fnc1j"]
+
+[node name="Write" type="Node2D"]
+script = ExtResource("1_fnc1j")

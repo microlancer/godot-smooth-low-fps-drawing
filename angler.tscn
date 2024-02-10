@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqgfdcq5uof3g"]
+
+[ext_resource type="Script" path="res://angler.gd" id="1_itkqg"]
+
+[node name="Angler" type="Node2D"]
+script = ExtResource("1_itkqg")
+
+[node name="Line2D" type="Line2D" parent="."]
+points = PackedVector2Array(252, 317, 512, 635, 260, 985, 456, 1279, 228, 1573, 510, 1787, 702, 1721, 826, 1637, 906, 1427, 822, 1143, 696, 897, 976, 937)
+default_color = Color(0, 0, 0, 1)
